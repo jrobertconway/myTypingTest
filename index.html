@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Typing Test</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My Typing Test</h1>
+	</header>
+	<div id="instructions">
+		<h2>Please Read The Following</h2>
+		<p>This is a typing test to see how fast you can finish the following passage. 
+		The time will begin the moment you begin to type in the designated area. 
+		The time will stop only when you have entered the correct passage as it is written.
+		</p>
+	</div>
+	<div class="testArea">
+		<div id="passage">
+			<p>This is the passage that you will be tested on. Please be careful not to make any errors. Best of luck!</p>
+		</div>
+		<div id="testInput">
+			<textarea name="speedTestArea" id="inputArea" cols="60" rows="10" placeholder="Testing Area"></textarea>
+		</div>
+	</div>
+	<div class="clockArea">
+		<div id="clock">00:00:00</div>
+		<button id="reset" type="button">Reset</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
